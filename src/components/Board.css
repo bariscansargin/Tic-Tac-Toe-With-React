@@ -1,0 +1,26 @@
+.board-wrapper {
+  display: flex;
+}
+.board {
+  width: 450px;
+  height: 450px;
+  background-color: #ebebeb;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0px 0px 12px white;
+  margin-top: 30px;
+}
+.reset-button {
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  padding: 20px;
+  background-color: grey;
+  color: white;
+  box-shadow: 0px 0px 12px white;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.reset-button:active {
+  transform: scale(1.02);
+}
